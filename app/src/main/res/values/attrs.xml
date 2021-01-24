@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomeToolbar">
+        <!--        居中的文本-->
+        <attr name="myTitleText" format="string|reference" />
+        <!--        文本颜色-->
+        <attr name="myTitleTextColor" format="color|reference" />
+        <!--        文本大小-->
+        <attr name="myTitleTextSize" format="dimension|reference" />
+        <!--        左边图片-->
+        <attr name="lefeImgSrc" format="reference" />
+        <!--        右边图片-->
+        <attr name="rightImgSrc" format="reference" />
+
+    </declare-styleable>
+
+
+</resources>

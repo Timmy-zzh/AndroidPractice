@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义控件--继承自系统现有控件" />
+
+        <Button
+            android:id="@+id/btn_touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Touch事件分发"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滑动事件"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView详解"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/layout_inflate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LayoutInflate"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_handler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Handler消息通信机制"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity界面跳转"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
